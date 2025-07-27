@@ -4,6 +4,9 @@
 
 Posture Vision is an AI-powered, full-stack web application designed to help you improve your posture. Using your device's webcam, the application provides real-time analysis and personalized feedback to help you correct common posture issues, whether you're working at your desk, exercising, or just want to be more mindful of your body mechanics.
 
+## Demo
+![Untitled Project](https://github.com/user-attachments/assets/e8454544-1d8b-44be-a863-137b9371b646)
+
 ## Features
 
 *   **Live Webcam Analysis:** Get instant feedback on your posture through a live video stream.
@@ -65,18 +68,6 @@ The application captures a frame from the user's webcam or uploaded video and se
 
 *   **Issue:** Initially, the posture analysis feature returned random or incorrect results.
 *   **Resolution:** The initial placeholder logic was replaced with a dedicated Genkit AI flow (`detect-posture-issues.ts`). This flow now captures a frame from the video stream and sends it to the Gemini model for a genuine, accurate analysis of posture, resolving the issue of incorrect detections.
-
-## Contributing
-
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-
-1.  Fork the Project
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the Branch (`git push origin feature/AmazingFeature`)
-5.  Open a Pull Request
 
 ## License
 
